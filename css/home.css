@@ -18,10 +18,20 @@ body {
 
 }
 
+.navbar-nav{
+  margin: -2px;
+}
+
 .main {
   margin-top: 10%;
 }
 
-img{
+.lsd {
   width: 100%;
+  border: solid 5px #FAFAFA
+}
+
+.anchor {
+  margin-top: 10%;
+  text-align: center;
 }
