@@ -7,7 +7,7 @@ body {
 }
 
 .logo img{
-  width: 12%;
+margin: 5px;
 }
 
 .navbar-inverse, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-nav>li>a,
@@ -23,15 +23,34 @@ body {
 }
 
 .main {
-  margin-top: 10%;
+  margin-top: 5%;
 }
+
+.row{
+  margin-top: 5%;
+  text-align: center;
+}
+
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.quote{
+  margin-top: 2%;
+}
+
 
 .lsd {
   width: 100%;
   border: solid 5px #FAFAFA
-}
-
-.anchor {
-  margin-top: 10%;
-  text-align: center;
 }
