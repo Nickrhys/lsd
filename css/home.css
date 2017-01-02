@@ -3,32 +3,79 @@ body {
   color: #FAFAFA;
   background-color: #EE2722;
   border-color: #EE2722;
-  padding-top: 50px;
+  line-height: 30px;
+	margin: 0;
 }
 
-.logo img{
-margin: 5px;
+h4 {
+  line-height: 30px;
+}
+
+.logo img {
+  margin: 5px;
 }
 
 .navbar-inverse, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-collapse {
     background-color: #EE2722;
-    border-color: #EE2722;
+    border-color: #FAFAFA;
     color: #FAFAFA;
-
 }
 
-.navbar-nav{
-  margin: -2px;
+#menu {
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:60px;
+	background-color:#EE2722;
+	color: #FAFAFA;
+	z-index:9999;
+	display: none;
 }
 
-.main {
-  margin-top: 5%;
+.nav>li {
+  text-align: right;
 }
 
-.row{
-  margin-top: 5%;
+.row {
   text-align: center;
+  border-bottom: solid 5px #FAFAFA
+}
+
+.section {
+  margin: 5% 0;
+}
+
+.lsd-text {
+  margin-bottom: 5%;
+}
+
+.intro {
+  text-align: center;
+  background: url(../lsd-img.png) no-repeat bottom center scroll;
+  padding: 250px 0px;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+  }
+}
+
+.lsd {
+  width: 100%;
+  border: solid 1px #FAFAFA
+}
+
+.quote {
+  margin-top: 5%;
+}
+
+.where-when-text {
+  margin-bottom: 5%;
 }
 
 .video-wrapper {
@@ -36,6 +83,8 @@ margin: 5px;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
+  width: 75%;
+  margin: 0 auto;
 }
 .video-wrapper iframe {
 	position: absolute;
@@ -45,12 +94,6 @@ margin: 5px;
 	height: 100%;
 }
 
-.quote{
-  margin-top: 2%;
-}
-
-
-.lsd {
-  width: 100%;
-  border: solid 5px #FAFAFA
+ .first, .last {
+  border-bottom: none;
 }
