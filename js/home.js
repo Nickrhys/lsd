@@ -6,10 +6,10 @@ $(document).ready(function () {
 
 $(document).ready(function(){
     $(window).scroll(function(){
-        if ($(this).scrollTop() > 200) {
-            $('#menu').fadeIn(500);
+        if ($(this).scrollTop() > 100) {
+            $('#menu').fadeIn(300);
         } else {
-            $('#menu').fadeOut(500);
+            $('#menu').fadeOut(300);
         }
     });
 });

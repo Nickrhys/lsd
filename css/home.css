@@ -50,10 +50,6 @@ a, a:hover {
   margin: 6% 0;
 }
 
-.lsd-text {
-  margin-bottom: 5%;
-}
-
 .intro {
   text-align: center;
   background: url(../lsd-img.png) no-repeat bottom center scroll;
@@ -63,9 +59,11 @@ a, a:hover {
   -o-background-size: cover;
 }
 
-.lsd {
-  width: 100%;
-  border: solid 1px #FAFAFA
+#about:before {
+    display: block;
+    content: "";
+    height: 50px;
+    margin: -50px 0 0;
 }
 
 .quote {
@@ -92,6 +90,6 @@ a, a:hover {
 	height: 100%;
 }
 
- .first, .last {
+ .last {
   border-bottom: none;
 }
