@@ -13,6 +13,7 @@ h4 {
 
 a, a:hover, a:visited, a:active {
   color: #FAFAFA;
+  font-weight: bolder;
 }
 
 .logo img {
@@ -59,7 +60,7 @@ a, a:hover, a:visited, a:active {
   -o-background-size: cover;
 }
 
-#what:before, #who:before {
+#what:before, #who:before, #where-when:before  {
     display: block;
     content: "";
     height: 50px;
