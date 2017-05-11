@@ -20,6 +20,10 @@ a, a:hover, a:visited, a:active {
   margin: 5px;
 }
 
+nav#menu {
+  height: 52px;
+}
+
 .navbar-inverse, .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-collapse {
     background-color: #EE2722;
